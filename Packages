@@ -1,28 +1,257 @@
-Package: com.supermamon.newpackage
-Version: 2.0.0-1
-Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (>7.0), mobilesubstrate
+Package: bash
+Version: 4.4
+Section: Terminal_Support
+Maintainer: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depends: grep, ncurses, sed, cy+cpu.arm64
 Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.newpackage_2.0.0-1_iphoneos-arm.deb
-Size: 854
-MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
-Description: This is a sample new package. Firmware should be greater than 7.0
-Name: New Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.newpackage
+Filename: ./debs/bash_4.4_iphoneos-arm.deb
+Size: 430
+MD5sum: ba5cb6ce223b899075abb7dafd6e0764
+Description: the best shell ever written by Brian Fox
+Name: Bourne-Again SHell
+Author: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depiction: https://ricklantis.github.io/repo/depictions/callproxi
 
-Package: com.supermamon.oldpackage
-Version: 1.0.0-1
+Package: berkeleydb
+Version: 6.2.23
+Section: Data_Storage
+Maintainer: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depends: cy+cpu.arm64
+Architecture: iphoneos-arm
+Filename: ./debs/berkeleydb_6.2.23_iphoneos-arm.deb
+Size: 12,878,488 
+MD5sum:
+Description: Oracle's embeddable database engine
+Name: Berkeley DB
+Author: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depiction: http://www.oracle.com/technology/products/berkeley-db/index.html
+
+
+
+
+
+
+
+
+Package: bash
+Version: 4.4
 Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
+Maintainer: Ricklantis <ricklantistherickestofricks@gmail.com>
 Depends: firmware (<7.0)
 Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
-Size: 860
-MD5sum: 8c606f0c05217aa2a20949091fe516f0
-Description: This is a sample old package. Firmware should be lower than 7.0
-Name: Old Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
+Filename: ./debs/bash_4.4_iphoneos-arm.deb
+Size: 430
+MD5sum: ba5cb6ce223b899075abb7dafd6e0764
+Description: the best shell ever written by Brian Fox
+Name: bash
+Author: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depiction: https://ricklantis.github.io/repo/depictions/callproxi
 
+Package: bash
+Version: 4.4
+Section: Tweaks
+Maintainer: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depends: firmware (<7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/bash_4.4_iphoneos-arm.deb
+Size: 430
+MD5sum: ba5cb6ce223b899075abb7dafd6e0764
+Description: the best shell ever written by Brian Fox
+Name: bash
+Author: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depiction: https://ricklantis.github.io/repo/depictions/callproxi
+
+Package: bash
+Version: 4.4
+Section: Tweaks
+Maintainer: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depends: firmware (<7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/bash_4.4_iphoneos-arm.deb
+Size: 430
+MD5sum: ba5cb6ce223b899075abb7dafd6e0764
+Description: the best shell ever written by Brian Fox
+Name: bash
+Author: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depiction: https://ricklantis.github.io/repo/depictions/callproxi
+
+Package: bash
+Version: 4.4
+Section: Tweaks
+Maintainer: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depends: firmware (<7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/bash_4.4_iphoneos-arm.deb
+Size: 430
+MD5sum: ba5cb6ce223b899075abb7dafd6e0764
+Description: the best shell ever written by Brian Fox
+Name: bash
+Author: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depiction: https://ricklantis.github.io/repo/depictions/callproxi
+
+Package: bash
+Version: 4.4
+Section: Tweaks
+Maintainer: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depends: firmware (<7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/bash_4.4_iphoneos-arm.deb
+Size: 430
+MD5sum: ba5cb6ce223b899075abb7dafd6e0764
+Description: the best shell ever written by Brian Fox
+Name: bash
+Author: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depiction: https://ricklantis.github.io/repo/depictions/callproxi
+Package: bash
+Version: 4.4
+Section: Tweaks
+Maintainer: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depends: firmware (<7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/bash_4.4_iphoneos-arm.deb
+Size: 430
+MD5sum: ba5cb6ce223b899075abb7dafd6e0764
+Description: the best shell ever written by Brian Fox
+Name: bash
+Author: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depiction: https://ricklantis.github.io/repo/depictions/callproxi
+Package: bash
+Version: 4.4
+Section: Tweaks
+Maintainer: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depends: firmware (<7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/bash_4.4_iphoneos-arm.deb
+Size: 430
+MD5sum: ba5cb6ce223b899075abb7dafd6e0764
+Description: the best shell ever written by Brian Fox
+Name: bash
+Author: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depiction: https://ricklantis.github.io/repo/depictions/callproxi
+
+Package: bash
+Version: 4.4
+Section: Tweaks
+Maintainer: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depends: firmware (<7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/bash_4.4_iphoneos-arm.deb
+Size: 430
+MD5sum: ba5cb6ce223b899075abb7dafd6e0764
+Description: the best shell ever written by Brian Fox
+Name: bash
+Author: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depiction: https://ricklantis.github.io/repo/depictions/callproxi
+
+Package: bash
+Version: 4.4
+Section: Tweaks
+Maintainer: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depends: firmware (<7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/bash_4.4_iphoneos-arm.deb
+Size: 430
+MD5sum: ba5cb6ce223b899075abb7dafd6e0764
+Description: the best shell ever written by Brian Fox
+Name: bash
+Author: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depiction: https://ricklantis.github.io/repo/depictions/callproxi
+
+Package: bash
+Version: 4.4
+Section: Tweaks
+Maintainer: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depends: firmware (<7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/bash_4.4_iphoneos-arm.deb
+Size: 430
+MD5sum: ba5cb6ce223b899075abb7dafd6e0764
+Description: the best shell ever written by Brian Fox
+Name: bash
+Author: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depiction: https://ricklantis.github.io/repo/depictions/callproxi
+
+Package: bash
+Version: 4.4
+Section: Tweaks
+Maintainer: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depends: firmware (<7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/bash_4.4_iphoneos-arm.deb
+Size: 430
+MD5sum: ba5cb6ce223b899075abb7dafd6e0764
+Description: the best shell ever written by Brian Fox
+Name: bash
+Author: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depiction: https://ricklantis.github.io/repo/depictions/callproxi
+
+Package: bash
+Version: 4.4
+Section: Tweaks
+Maintainer: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depends: firmware (<7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/bash_4.4_iphoneos-arm.deb
+Size: 430
+MD5sum: ba5cb6ce223b899075abb7dafd6e0764
+Description: the best shell ever written by Brian Fox
+Name: bash
+Author: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depiction: https://ricklantis.github.io/repo/depictions/callproxi
+
+Package: bash
+Version: 4.4
+Section: Tweaks
+Maintainer: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depends: firmware (<7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/bash_4.4_iphoneos-arm.deb
+Size: 430
+MD5sum: ba5cb6ce223b899075abb7dafd6e0764
+Description: the best shell ever written by Brian Fox
+Name: bash
+Author: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depiction: https://ricklantis.github.io/repo/depictions/callproxi
+
+Package: bash
+Version: 4.4
+Section: Tweaks
+Maintainer: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depends: firmware (<7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/bash_4.4_iphoneos-arm.deb
+Size: 430
+MD5sum: ba5cb6ce223b899075abb7dafd6e0764
+Description: the best shell ever written by Brian Fox
+Name: bash
+Author: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depiction: https://ricklantis.github.io/repo/depictions/callproxi
+
+Package: bash
+Version: 4.4
+Section: Tweaks
+Maintainer: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depends: firmware (<7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/bash_4.4_iphoneos-arm.deb
+Size: 430
+MD5sum: ba5cb6ce223b899075abb7dafd6e0764
+Description: the best shell ever written by Brian Fox
+Name: bash
+Author: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depiction: https://ricklantis.github.io/repo/depictions/callproxi
+
+Package: bash
+Version: 4.4
+Section: Tweaks
+Maintainer: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depends: firmware (<7.0)
+Architecture: iphoneos-arm
+Filename: ./debs/bash_4.4_iphoneos-arm.deb
+Size: 430
+MD5sum: ba5cb6ce223b899075abb7dafd6e0764
+Description: the best shell ever written by Brian Fox
+Name: bash
+Author: Ricklantis <ricklantistherickestofricks@gmail.com>
+Depiction: https://ricklantis.github.io/repo/depictions/callproxi
+berkeleydb_6.2.23_iphoneos-arm.debbzip2_1.0.6_iphoneos-arm.debcom.ex.libsubstitute_0.0.2-coolstar_iphoneos-arm.debcoreutils_8.28_iphoneos-arm.debcoreutils-bin_8.28_iphoneos-arm.debcurl_7.50.1-1_iphoneos-arm.debcydia_1.1.30-coolstar3_iphoneos-arm.debdarwintools_1-6_iphoneos-arm.debdebianutils_4.8.4_iphoneos-arm.debdiffutils_3.6_iphoneos-arm.debdpkg_1.18.24_iphoneos-arm.debfindutils_4.6_iphoneos-arm.debgnupg_1.4.22_iphoneos-arm.debgrep_3.1_iphoneos-arm.debgzip_1.8_iphoneos-arm.deblzma_5.2.3_iphoneos-arm.debnano_2.9.1_iphoneos-arm.debncurses_5.9_iphoneos-arm.debopenssh_7.6p1-3_iphoneos-arm.debopenssl_1.0.2n_iphoneos-arm.deborg.coolstar.tweakinject_1.0_iphoneos-arm.deborg.coolstar.tweakinject_1.0.1_iphoneos-arm.debp7zip_16.02_iphoneos-arm.debsed_4.2.2_iphoneos-arm.debshell-cmds_203_iphoneos-arm.debsystem-cmds_790_iphoneos-arm.debtar_1.30_iphoneos-arm.debuikittools_1.1.12-coolstar_iphoneos-arm.debunrar_5.5.8_iphoneos-arm.debunzip_6.0_iphoneos-arm.debzip_3.0_iphoneos-arm.deb
