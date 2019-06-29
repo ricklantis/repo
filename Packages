@@ -1,0 +1,335 @@
+Package: com.bingner.snappy
+Version: 1.1-1
+Architecture: iphoneos-arm
+Maintainer: Samuel Bingner
+Installed-Size: 68
+Filename: ./debs/com.bingner.snappy_1.1-1_iphoneos-arm.deb
+Size: 5690
+MD5sum: 86bc77428c7d94f34a313279281f2753
+SHA1: 744799754b4d1eba0569d31f55b4f8282d95f136
+SHA256: f50193b78ff80f91bb7a1226770651c78daa4ad1a0906f08c1db47914b847bc2
+Section: System
+Description: A Tool for APFS Snapshot Management
+Tag: role::hacker
+Author: Samuel Bingner
+Name: Snappy
+
+Package: com.cryptic.snaputil
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Adam Leventhal
+Filename: ./debs/com.cryptic.snaputil_1.0.1_iphoneos-arm.deb
+Size: 3390
+MD5sum: 2d205abf348ad5c156e7371e55fbb11b
+SHA1: fc267c258a58a44656707e38f492e3e0bf426480
+SHA256: 4e63b02519e66416b1c4779181d42fdfc8055ce80f2031cccd84e0f65c302a92
+Section: System
+Description: A command line tool to manipulate APFS Snapshots.
+Author: Adam Leventhal
+Name: snapUtil
+
+Package: com.ex.libsubstitute
+Version: 0.0.2-coolstar
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 11.0), cy+cpu.arm64
+Filename: ./debs/com.ex.libsubstitute_0.0.2-coolstar_iphoneos-arm.deb
+Size: 20256
+MD5sum: b07ced38a4e04e525aafe0d07da44ca6
+SHA1: 8834e55d6eebc0c08fc7256449eac9c8f3e92cba
+SHA256: 5e57e56474548df68ee2089385d3160db4458ecb3cde0989f64f56c3916b8272
+Section: System
+Priority: optional
+Description: Substrate substitute for code substitution (library only)
+Author: comex <comexk+da@gmail.com>
+Name: Substitute
+
+Package: com.ex.libsubstitute
+Version: 0.0.7-coolstar
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 8.0), cy+cpu.arm64
+Filename: ./debs/com.ex.substitute_0.0.7-coolstar_iphoneos-arm.deb
+Size: 18780
+MD5sum: 0d34ceb77cff614d84e6f1cd04fbc2bb
+SHA1: 178633b68b4d5b0bc30202e8bb4844db9d2e2bfb
+SHA256: 6a848361c581f67784bb2bde8681e7f57f15b70c88554c5df4204b93d8a858e2
+Section: System
+Priority: optional
+Description: Substrate substitute for code substitution (library only)
+Author: comex <comexk+da@gmail.com>
+Name: Substitute
+
+Package: com.ex.libsubstitute
+Version: 0.1.0-coolstar
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 8.0), cy+cpu.arm64
+Filename: ./debs/com.ex.libsubstitute_0.1.0-coolstar.deb
+Size: 26712
+MD5sum: 6818f9b89b04a7a34feeb5b5bbf921f3
+SHA1: e3f7522e1204ff387e96f2b5561c2d4c2774541f
+SHA256: 5541d4720ab5ed3c53cb7ba7596427860ab1cbfb6e9167cbce320bd401220aca
+Section: System
+Priority: optional
+Description: Substrate substitute for code substitution (library only)
+Author: comex <comexk+da@gmail.com>
+Name: Substitute
+
+Package: com.rpetrich.rocketbootstrap
+Version: 1.0.7~beta5-coolstar-1
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 800
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Filename: ./debs/com.rpetrich.rocketbootstrap_1.0.7~beta5-coolstar-1.deb
+Size: 30320
+MD5sum: 7976fff5ff57405ce196576b8c4d0a0b
+SHA1: 228bf8bccbd11c398e419f04d05a0f7067913a41
+SHA256: 5047444908ecdd158ce97a8fc8bd4adf6e20a4b13d81a07e79cec95678ee3e8f
+Section: Tweaks
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Tag: purpose::extension, role::developer
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Dev: rpetrich
+Name: RocketBootstrap
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: mobilesubstrate
+Version: 0.9.7000
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.saurik.substrate.safemode
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Replaces: cycript (<= 0.9.594)
+Filename: ./debs/mobilesubstrate_0.9.7000_iphoneos-arm.deb
+Size: 387896
+MD5sum: 8bbfcb0ce78c611d2da7bc4a7bb73e76
+SHA1: 0ce069ec747984b641f4ba8f672552e125ecaef3
+SHA256: 582e80b664a6da15c282c54ee68655d19e8bcfd2a20d3687431336ee85cd44f0
+Section: System
+Priority: optional
+Description: powerful code insertion platform
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+Name: Cydia Substrate
+
+Package: mobilesubstrate
+Version: 0.9.7010
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.saurik.substrate.safemode
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Replaces: cycript (<= 0.9.594)
+Filename: ./debs/mobilesubstrate_0.9.7010_iphoneos-arm.deb
+Size: 441058
+MD5sum: ceedde6d88672b8f426ef97591e088b9
+SHA1: c904af181c85b4dd77f6c9e6be9505a0aa83ee76
+SHA256: d8d35336a277b20ee0f1b89dc31a7bcb9b5cd2aadd92a7701e84515ce2be1b8a
+Section: System
+Priority: optional
+Description: powerful code insertion platform
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+Name: Cydia Substrate
+
+Package: mobilesubstrate
+Version: 0.9.7011
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.saurik.substrate.safemode
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Replaces: cycript (<= 0.9.594)
+Filename: ./debs/mobilesubstrate_0.9.7011_iphoneos-arm.deb
+Size: 442656
+MD5sum: fcde5548d2368aae470f0c5f767204da
+SHA1: be80aff01a7c477fa9fff89bad35bea6d0c5b33d
+SHA256: 056c3810c24951493ba78e17cc8156eda36eae813c0134c2b5e0cd874c00ea89
+Section: System
+Priority: optional
+Description: powerful code insertion platform
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+Name: Cydia Substrate
+
+Package: mobilesubstrate
+Version: 0.9.7012
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.saurik.substrate.safemode
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Replaces: cycript (<= 0.9.594)
+Filename: ./debs/mobilesubstrate_0.9.7012_iphoneos-arm.deb
+Size: 444652
+MD5sum: c0e0ea351ccf5f4ae3cde05e2d936953
+SHA1: 76bf25c1a9fb0d0888d25842866ee983d4da80f0
+SHA256: 41e590a4f82013e57ca1a49bcd30a69746245c973dc4510f946404fd0fd0ac76
+Section: System
+Priority: optional
+Description: powerful code insertion platform
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+Name: Cydia Substrate
+
+Package: mobilesubstrate
+Version: 0.9.7013
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.saurik.substrate.safemode
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Replaces: cycript (<= 0.9.594)
+Filename: ./debs/mobilesubstrate_0.9.7013_iphoneos-arm.deb
+Size: 445712
+MD5sum: 8a7ba6f5e7b7762896939520e9e0c405
+SHA1: fd9afab77aca7449d6ffe3403aac90a5e2763025
+SHA256: 4a076fc3d455ce9cbdbe08dbe1d3fa72adecefe79e53942e3e17a25ccbf2a4b4
+Section: System
+Priority: optional
+Description: powerful code insertion platform
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+Name: Cydia Substrate
+
+Package: mobilesubstrate
+Version: 0.9.7020
+Architecture: iphoneos-arm
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.saurik.substrate.safemode
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Replaces: cycript (<= 0.9.594)
+Filename: ./debs/mobilesubstrate_0.9.7020_iphoneos-arm.deb
+Size: 446592
+MD5sum: a6f524d2dca0c9367a934996002c2dbe
+SHA1: e1b23c0db6977e430da7ccb13fdc3f17f6771d49
+SHA256: 1fad8632f0ab7b2a9399c8036b90216f6fec1ac180f29ae6b34d8887967a5e55
+Section: System
+Priority: optional
+Description: powerful code insertion platform
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+Name: Cydia Substrate
+
+Package: mobilesubstrate
+Version: 99.0
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: org.coolstar.tweakinject, com.ex.libsubstitute, cy+cpu.arm64
+Filename: ./debs/mobilesubstrate_99.0_iphoneos-arm.deb
+Size: 2724
+MD5sum: 5d951a9de3c708fc452184e0dccaea01
+SHA1: 53ae841ffe0e903fe90a5160b84fb04c7bd68e38
+SHA256: ba3dcadd045c39640952cb17a126e4a3612b4aba70f7b3c2d751712993127ee6
+Section: System
+Description: Compatibility wrapper for Substrate tweaks to work with Tweak Injector + Substitute
+Author: CoolStar <coolstarorganization@gmial.com>
+Name: Substrate Compatibility Layer
+
+Package: mobilesubstrate
+Version: 99.2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: org.coolstar.tweakinject, com.ex.libsubstitute, cy+cpu.arm64
+Filename: ./debs/mobilesubstrate_99.2.deb
+Size: 3664
+MD5sum: e3f495b930da06051dd326eb54fe7291
+SHA1: ae102133cef775c7b1490f82d3c5755a01916a6a
+SHA256: 735829480a02abee3b0b62e2bc538d2aca38caedaf94a6292380068980bec884
+Section: System
+Description: Compatibility wrapper for Substrate tweaks to work with Tweak Injector + Substitute
+Author: CoolStar <coolstarorganization@gmial.com>
+Name: Substrate Compatibility Layer
+
+Package: org.coolstar.tweakinject
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 10.0), cy+cpu.arm64, com.ex.libsubstitute
+Filename: ./debs/org.coolstar.tweakinject_1.0_iphoneos-arm.deb
+Size: 16716
+MD5sum: 17057ed42041bd9d1d29cbb9b39b92e7
+SHA1: d1340782ec7344cb36bc6e677534ee16f8e5ab16
+SHA256: 72a47947760e66457d4dc4898c1607030d441a087167c91a707b5bc722de9c4e
+Section: System
+Description: General purpose tweak loader with safe mode in case of crashes
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: Tweak Injector
+
+Package: org.coolstar.tweakinject
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 10.0), cy+cpu.arm64, com.ex.libsubstitute
+Filename: ./debs/org.coolstar.tweakinject_1.0.1_iphoneos-arm.deb
+Size: 16796
+MD5sum: e04ab7a34709ce715d14d48a48c58e62
+SHA1: 75fca989e5e61032cf0a989299191a3e4970a4da
+SHA256: 77fb6fe8091dc8d221e3c4762dcc9a4b964f70a4a479f7ce6c1a2777f3cde804
+Section: System
+Description: General purpose tweak loader with safe mode in case of crashes
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: Tweak Injector
+
+Package: org.coolstar.tweakinject
+Version: 1.0.7-2
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 10.0), cy+cpu.arm64, com.ex.libsubstitute
+Filename: ./debs/org.coolstar.tweakinject_1.0.7-2_iphoneos-arm.deb
+Size: 24146
+MD5sum: 0822f503bf46cfe63d1687d774ce7dec
+SHA1: 9f0ee45a46ee259f12820befd5cd0eec73bc2e6a
+SHA256: 9de231e8761fcae0c1638f691ff41a06020d7fd651c89a62733a0653871fa457
+Section: System
+Description: General purpose tweak loader with safe mode in case of crashes
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: Tweak Injector
+
+Package: org.coolstar.tweakinject
+Version: 1.1.1-sileo
+Architecture: iphoneos-arm
+Maintainer: CoolStar <coolstarorganization@gmail.com>
+Depends: firmware (>= 10.0), cy+cpu.arm64, com.ex.libsubstitute | org.coolstar.substrateloader
+Filename: ./debs/org.coolstar.tweakinject_1.1.1-sileo.deb
+Size: 25412
+MD5sum: e68f391db2d565ce7ce4d1f19d5e036b
+SHA1: c066ae2c9864e4c94d82db2b4f2c5d1f92b99292
+SHA256: dee131f5c39e6bb0769b5f99d003076e0e95b887a8477fc285c12eba85fcaa21
+Section: System
+Description: General purpose tweak loader with safe mode in case of crashes
+Author: CoolStar <coolstarorganization@gmail.com>
+Name: Tweak Injector
+
+Package: preferenceloader
+Version: 2.2.4~beta1
+Architecture: iphoneos-arm
+Maintainer: Dustin Howett <cydia.pl@relay.howett.net>
+Installed-Size: 532
+Depends: mobilesubstrate
+Filename: ./debs/preferenceloader_2.2.4~beta1.deb
+Size: 33838
+MD5sum: 61efed5a8aa8507208731da2d737c882
+SHA1: 5c180113d9fc6263cf30700a725dacb92b546218
+SHA256: d395cfb1d8dd56f984df50dc0db33746e3e1e72f311be5bad3f4235342b21b90
+Section: System
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Description: load preferences in style
+Tag: role::hacker, purpose::library
+Author: Dustin Howett <cydia.pl@relay.howett.net>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=preferenceloader2Data
+Dev: dustinhowett
+Name: PreferenceLoader
+
