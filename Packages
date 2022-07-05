@@ -1,0 +1,17 @@
+Package: Th0r14
+Version: 4.0.9
+Architecture: iphoneos-arm
+Maintainer: pwned4ever
+Depends: firmware (>= 14.0)
+Filename: debs/th0r14_p.deb
+Size: 19281024
+MD5sum: 484103ff53e5af9e7226270369b05b95
+SHA1: 29627b472e227476a78cb2ae163e51f90c1e8a8c
+SHA256: d0389cf2597a48bbe91877366310efb4eed31c0c0b7f4694b310f4a57e7e3e1e
+Section: Packaging
+Description: An expermental tool to give you a permanent jailbreak app, that'll never expire.
+Tag: role::hacker, compatible::ios14
+Author: pwned4ever
+Icon: file:///Applications/Th0r14.app/AppIcon60x60@2x.png
+Name: Th0r14
+
