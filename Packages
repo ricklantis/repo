@@ -1,13 +1,13 @@
 Package: Th0r14++
-Version: 4.1.1-p
+Version: 4.1.2++
 Architecture: iphoneos-arm
 Maintainer: pwned4ever
 Depends: firmware (>= 14.0)
-Filename: debs/th0r14_p.deb
-Size: 19257868
-MD5sum: f3c4c84a49690f8322a520b22dabb921
-SHA1: 874badb38a4f89fd65fa4144373acf034469974e
-SHA256: f6ba8f5874fd297fc48d1a4b72ff803714e3029474ffef1545cb3c3fd03fecc6
+Filename: debs/th0r14_4.1.2++.deb
+Size: 20623988
+MD5sum: 5b58c13d51bc6d46eacc3688d37f1347
+SHA1: 83d6d5ad79f01f93c9be1112126c968c4fdc7537
+SHA256: 2368da7f954e46df163af333380309f511d219895f850ce68f8b667ff363108b
 Section: Packaging
 Description: Permanent jailbreak app, that'll never expire. Not for use to remove your jailbreak, or to initially jailbreak. This tool is only used for enabling your Th0r jailbreak.
 Tag: role::hacker, compatible::ios14
